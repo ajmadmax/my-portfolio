@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+
+.expContainer {
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #f8fafc;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .duration {
+    font-size: 1rem;
+    color: #555;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .company {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #999b99;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .location {
+    font-size: 1rem;
+    color: #777;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .taskList {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .taskItem {
+    font-size: 1rem;
+    color: #777676;
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+  
+  .taskItem::marker {
+    color: #8e918e;
+    font-size: 1.2rem;
+  }
+  
