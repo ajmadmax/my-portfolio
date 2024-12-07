@@ -196,4 +196,98 @@
     color: #777;
   }
   
+  @media (max-width: 768px) {
+    .galleryContainer {
+      width: 100%; /* Adjust width for smaller screens */
+      height: 80vh; /* Reduce height to fit smaller devices */
+    }
+  
+    .galleryItem {
+      top: 5%; /* Adjust positioning for smaller screens */
+      transform: scale(0.7); /* Slightly smaller scale */
+    }
+  
+    .galleryItem.active {
+      transform: scale(0.9); /* Adjust active scale for smaller screens */
+    }
+  
+    .galleryArrow {
+      font-size: 18px; /* Reduce font size of arrows */
+      padding: 8px; /* Adjust padding for arrows */
+    }
+  
+    .galleryArrow.left {
+      left: 5px; /* Bring arrows closer to edges */
+    }
+  
+    .galleryArrow.right {
+      right: 5px;
+    }
+    .containerEdu {
+      padding: 15px; 
+      max-width: 90%;
+    }
+  
+    .headingEdu {
+      font-size: 1.5rem; /* Reduce heading font size */
+      margin-bottom: 10px; /* Adjust spacing below heading */
+    }
+  
+    .card {
+      padding: 15px; 
+      margin: 10px 0; 
+    }
+  
+    .institution {
+      font-size: 1rem; /* Adjust institution font size */
+    }
+  
+    .gpa {
+      font-size: 0.9rem; /* Adjust GPA font size */
+    }
+  
+    .duration {
+      font-size: 0.8rem; /* Adjust duration font size */
+    }
+    .container {
+      padding: 10px;
+      border-radius: 8px;
+      width: 100%;
+      box-shadow: none;
+      overflow-x: auto;
+      overflow-y: visible;
+    }
+  
+    .heading {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+  
+    .table {
+      width: 100%;
+      font-size: 0.85rem;
+      border-spacing: 0;
+      overflow-x: auto;
+      display: block;
+      table-layout: fixed;
+    }
+  
+    .table th,
+    .table td {
+      padding: 8px;
+      word-wrap: break-word;
+      text-align: left;
+    }
+  
+    .table th {
+      font-size: 0.9rem;
+      white-space: normal;
+    }
+  
+    .table-wrapper {
+      overflow-x: auto;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
   

@@ -57,4 +57,46 @@
     color: #8e918e;
     font-size: 1.2rem;
   }
+  @media (max-width: 768px) {
+    .expContainer {
+      padding: 5px;
+      margin: 10px auto;
+      max-width: 100%;
+      border-radius: 8px;
+    }
+  
+    .title {
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+    }
+  
+    .duration {
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+    }
+  
+    .company {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+    }
+  
+    .location {
+      font-size: 0.9rem;
+      margin-bottom: 10px;
+    }
+  
+    .taskList {
+      padding-left: 15px;
+    }
+  
+    .taskItem {
+      font-size: 0.9rem;
+      margin-bottom: 8px;
+      line-height: 1.4;
+    }
+  
+    .taskItem::marker {
+      font-size: 1rem;
+    }
+  }
   

@@ -3,7 +3,7 @@
 
   .imageContainer {
     font-family: 'poppins', sans-serif;
-    position: relative; /* Establish a positioning context for child elements */
+    position: relative; 
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -11,25 +11,25 @@
     margin-top: 30px;
   }
   .gradientText {
-    font-size: 2rem; /* Adjust font size as needed */
-    font-weight: bold; /* Make the text stand out */
-    background: linear-gradient(45deg, #ff6ec4, #7873f5, #4adede); /* Define gradient colors */
-    background-size: 300%; /* Make the gradient larger than the text area for smooth animation */
-    background-clip: text; /* Clip the background to the text */
-    -webkit-text-fill-color: transparent; /* Makes the text color transparent to show the gradient */
-    animation: gradientAnimation 3s infinite; /* Infinite animation with 3s duration */
+    font-size: 2rem; 
+    font-weight: bold; 
+    background: linear-gradient(45deg, #ff6ec4, #7873f5, #4adede); 
+    background-size: 300%; 
+    background-clip: text; 
+    -webkit-text-fill-color: transparent; 
+    animation: gradientAnimation 3s infinite; 
   }
   
-  /* Gradient Animation */
+  
   @keyframes gradientAnimation {
     0% {
-      background-position: 0% 50%; /* Start position */
+      background-position: 0% 50%; 
     }
     50% {
-      background-position: 100% 50%; /* Midpoint position */
+      background-position: 100% 50%; 
     }
     100% {
-      background-position: 0% 50%; /* End position */
+      background-position: 0% 50%; 
     }
   }
   
@@ -98,8 +98,8 @@
   
   .slideshow {
     display: flex;
-  flex-wrap: wrap; /* Enables wrapping to the next row */
-  gap: 10px; /* Space between images */
+  flex-wrap: wrap; 
+  gap: 10px; 
   justify-content: center;
   }
   
@@ -156,5 +156,73 @@
   
   .popupCloseButton:hover {
     background-color: #492b2a;
+  }
+  
+  @media (max-width: 768px) {
+    .imageContainer {
+      gap: 10px;
+      margin-top: 20px;
+      flex-wrap: wrap;
+    }
+  
+    .gradientText {
+      font-size: 1.5rem;
+    }
+  
+    .imageContainer p {
+      top: -30px;
+      font-size: 1rem;
+    }
+  
+    .imageBox {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .image {
+      width: 150px;
+      height: 150px;
+    }
+  
+    .caption {
+      font-size: 0.9rem;
+    }
+  
+    .slideshowContainer {
+      padding: 10px;
+    }
+  
+    .backButton {
+      padding: 15px 20px;
+      font-size: 0.9rem;
+    }
+  
+    .slideshow {
+      gap: 8px;
+    }
+  
+    .slideImage {
+      max-width: 150px;
+      max-height: 150px;
+    }
+  
+    .popupOverlay {
+      padding: 10px;
+    }
+  
+    .popupContent {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .popupImage {
+      max-width: 80vw;
+      max-height: 70vh;
+    }
+  
+    .popupCloseButton {
+      padding: 10px 15px;
+      font-size: 0.8rem;
+    }
   }
   

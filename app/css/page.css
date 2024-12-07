@@ -25,3 +25,14 @@
       background-position: 0% 50%;
     }
   }
+
+  @media (max-width: 768px) {
+    .full-page {
+      background-size: 400% 400%; /* Adjust size for smoother animation on smaller screens */
+      animation: gradientAnimation 10s ease infinite; /* Slightly slower for better appearance */
+      padding: 20px;
+      font-size: 16px; /* Adjust font size for better readability */
+      text-align: center; /* Center text on smaller screens */
+    }
+  }
+  

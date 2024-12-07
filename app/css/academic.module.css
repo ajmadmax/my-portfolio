@@ -45,3 +45,39 @@
     margin-bottom: 0;
   }
   
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+      max-width: 100%;
+      border-radius: 8px;
+      min-height: auto;
+    }
+  
+    .heading {
+      font-size: 1.5rem;
+      display: none;
+    }
+  
+    .projectCard {
+      padding: 8px 8px;
+      margin-bottom: 5px;
+      border-radius: 6px;
+      min-height: 100px; 
+    }
+  
+    .projectTitle {
+      font-size: 1rem;
+      margin-bottom: 8px;
+    }
+  
+    .projectDescription {
+      font-size: 0.8rem;
+      line-height: 1.4;
+      overflow-wrap: break-word; 
+    }
+  
+    .container:last-child {
+      padding-bottom: 20px; 
+    }
+  }
+  

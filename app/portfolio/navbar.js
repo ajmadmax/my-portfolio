@@ -17,7 +17,7 @@ export default function Navbar() {
         </li>
         <li className="nav-item">
           <Link href="/worksamples" className="nav-link">
-          Work Samples
+          WorkSamples
           </Link>
         </li>
       </ul>

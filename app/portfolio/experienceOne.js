@@ -21,8 +21,7 @@ const ExperienceOne = () => {
         adhering to modern web standards with robust error handling.
         </li>
         <li className={styles.taskItem}>
-        <b>Recognition & Impact,</b> Awarded 'Best Performer of the Year' in 2021 for exceptional 
-        contributions to project quality and operational efficiency.
+        <b>Recognition & Impact,</b> Awarded 'Best Performer of the Year' in 2021 for exceptional contributions to project quality and operational efficiency.
         </li>
         </ul>
     </div>
