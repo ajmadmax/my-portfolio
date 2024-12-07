@@ -8,14 +8,9 @@ export default function AcademicProjects (){
         "Developed an e-commerce website for Antique Benz Replica Toys using Ruby on Rails, integrating user-centric features such as design proposal submissions and monthly competition giveaways. Achieved 100% test coverage through comprehensive test scripts, ensuring robust application performance and reliability.",
     },
     {
-      title: "Agricultural Yield Forecasting",
+      title: "Feed Grain Dynamics Analysis",
       description:
-        "Utilized Random Forest algorithm to predict crop yields, enhancing crop selection and boosting farm efficiency.",
-    },
-    {
-      title: "Enhancing Web Application Security through Secure Error Handling",
-      description:
-        "Developed a web application highlighting vulnerabilities due to insecure error handling and implemented secure coding practices to mitigate these risks. Conducted comparative security analysis, demonstrating the effectiveness of secure error handling and improving the overall security posture of web applications.",
+        "Utilized Python and machine learning libraries like TensorFlow and Scikit-learn to analyze feed grain trends, regional disparities and pricing factors. Leveraged SQL/NoSQL databases to manage large datasets and applied statistical methods and algorithms to uncover patterns and forecast market trends. The project provided actionable insights to aid in anticipating shifts and making informed decisions in the agricultural sector",
     },
   ];
 
